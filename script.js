@@ -13,7 +13,22 @@ addbtn.addEventListener("click",()=>{
     const p=document.createElement("p");
     p.innerText=input;
     p.classList.add("text");
+    const finishbtn=document.createElement("button");
+    finishbtn.innerText="FINISH";
+    finishbtn.classList.add("finish-btn");
+    finishbtn.addEventListener("click",(e)=>{
+        p.classList.toggle('finish')});
+
+        const delbtn=document.createElement("button");
+        delbtn.innerText="DELETE";
+        delbtn.classList.add("del-btn");
+        delbtn.addEventListener("click",(e)=>{
+            e.target.parentElement.remove();
+        })
     div.appendChild(p);
+    div.append(finishbtn);
+    div.appendChild(delbtn);
     todocontainer.appendChild(div);
+    
     userinput.value='';
 })

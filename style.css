@@ -9,6 +9,31 @@
     align-items:start;
     justify-content:center;
 }
+.finish{
+    text-decoration: line-through;
+    color:gray;
+}
+.finish-btn{
+    padding:0.4rem 0.8rem;
+    margin:0.2rem;
+    font-weight:bold;
+    background:none;
+    border-radius:0.8rem;
+    background-color:green;
+    color:white;
+    border:1px solid green;
+}
+
+.del-btn{
+    padding:0.4rem 0.8rem;
+    margin:0.2rem;
+    font-weight:bold;
+    background:none;
+    border-radius:0.8rem;
+    background-color: rgba(255, 0, 0, 0.781);
+    color:white;
+    border:1px solid red;
+}
 .items{
     /* width:15rem; */
     display:flex;
