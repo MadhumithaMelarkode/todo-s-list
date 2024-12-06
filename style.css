@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+#todocontainer{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content:center;
+}
+.items{
+    /* width:15rem; */
+    display:flex;
+    justify-content:space-evenly;
+    padding:1rem;
+    margin:0.2rem;
+}
+.text{
+    font-size:1rem;
+    color:black;
+    font-weight:600;
+    padding:0.4rem;
+    /* border:1px solid black; */
+}
+.container{
+    background-image:url("https://png.pngtree.com/background/20210715/original/pngtree-yellow-simple-letter-background-cartoon-homework-background-material-picture-image_1303071.jpg") ;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100vh;
+}
+#title{
+    font-size:2rem;
+    font-weight:700;
+    color:brown
+}
+#initial{
+    margin-top:1rem;
+}
+#userinput{
+    padding:0.6rem 4rem;
+    border-radius:1rem;
+    margin-right:0.2rem;
+    background:none;
+    color:black;
+    font-size:1rem;
+    font-weight:600;
+    background-color: blanchedalmond;;
+}
+#userinput::placeholder{
+    color:black;
+}
+#add-btn{
+    padding:0.4rem 1rem;
+    border-radius:1rem;
+    background:none;
+    font-weight: 600;
+    font-size:1rem;
+    background-color:blanchedalmond;
+}
